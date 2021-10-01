@@ -13,7 +13,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 Este trabalho corresponde a implementação de uma rede neural convolucional capaz de identificar dois tipos de documentos diferentes no formato de imagens. 
 
-Foi utilizado o conceito de Deep Learning, ou seja, redes com diversas camadas também conhecidas como “redes profundas” e o conceito de Transfer Learning, ou seja, transferência de conhecimento, onde uma rede existente pré-treinada é utilizada para auxiliar na implementação.
+Foi utilizado o conceito de *Deep Learning*, ou seja, redes com diversas camadas também conhecidas como “redes profundas” e o conceito de *Transfer Learning*, ou seja, transferência de conhecimento, onde uma rede existente pré-treinada é utilizada para auxiliar na implementação.
 
 Um dos objetivos é obter um protótipo inicial simples como uma prova de conceito. O ganho destes tipos de sistemas está na redução dos custos e tempo de processamento na análise de documentos através da automatização de processos geralmente realizados de forma manual. 
 
@@ -38,13 +38,13 @@ Este sistema, por representar uma prova de conceito, foi implementado para apena
 
 ### 2. Modelagem
 
-O modelo correspondeu a construção de uma rede Convolutional Neural Network (CNN) combinada com uma rede Fully Conected.  Foi aplicada a técnica de TRANSFER LEARNING baseada em um VGG16 (Visual Geometry Group) pré-treinada com dataset Imagenet.
+O modelo correspondeu a construção de uma rede *Convolutional Neural Network (CNN)* combinada com uma rede *Fully Conected*.  Foi aplicada a técnica de *TRANSFER LEARNING* baseada em um VGG16 *(Visual Geometry Group)* pré-treinada com *dataset Imagenet*.
 
-Esta arquitetura VGG16 apresenta 16 camadas, sendo constituídas por convolutional layers, max pooling layers, activation layers e fully connected layers. Ao todo há 13 camadas de convolução, 5 camadas de max pooling e 3 camadas densas.
+Esta arquitetura VGG16 apresenta 16 camadas, sendo constituídas por *convolutional layers, max pooling layers, activation layers e fully connected layers*. Ao todo há 13 camadas de convolução, 5 camadas de *max pooling* e 3 camadas densas.
 
-A Base de dados corresponde a 119 imagens de certidões de óbito e 103 imagens de certidões de casamento. As imagens em formato PDF foram convertidas na extensão JPG. O sistema foi implementado com a utilização da plataforma JUPYTER NOTEBOOK e uso da linguagem de programação PYTHON.
+A Base de dados corresponde a 119 imagens de certidões de óbito e 103 imagens de certidões de casamento. As imagens em formato PDF foram convertidas na extensão JPG. O sistema foi implementado com a utilização da plataforma *JUPYTER NOTEBOOK* e uso da linguagem de programação *PYTHON*.
 
-Foram utilizados os pesos da rede convolucional pré treinada, onde a rede fully conected original da VGG16 foi desconectada e construída uma nova rede densa com 64 neurônios na camada intermediaria e 2 neurônios na camada de saída, já que temos 2 rótulos na base de dados. Outras técnicas utilizadas foram pooling e dropout.
+Foram utilizados os pesos da rede convolucional pré treinada, onde a rede *Fully Conected* original da VGG16 foi desconectada e construída uma nova rede densa com 64 neurônios na camada intermediaria e 2 neurônios na camada de saída, já que temos 2 rótulos na base de dados. Outras técnicas utilizadas foram *pooling* e *dropout*.
 
 
 ### 3. Resultados
@@ -60,7 +60,7 @@ A quantidade de imagens do banco de dados deve ser aumentada, o que resultará e
 
 O sistema se mostro suscetível de ser explorado de uma maneira mais ampla em futuros desenvolvimentos envolvendo uma gama muito maior de tipos de documentos.
 
-A sugestão para outros projetos de identificação ou classificação de documentos em imagens seria a utilização de um Optical Character Recognition (OCR) para captura dos textos e posterior uso de Processamento de Linguagem Natural (NLP - Natural Language Processing).
+A sugestão para outros projetos de identificação ou classificação de documentos em imagens seria a utilização de um *Optical Character Recognition (OCR)* para captura dos textos e posterior uso de Processamento de Linguagem Natural *(NLP - Natural Language Processing)*.
 
 
 ---
