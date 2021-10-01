@@ -56,7 +56,7 @@ A acurácia do sistema ficou em 93%. Os erros de classificação foram semelhant
 
 O sistema apresentou bons resultados de forma geral, porém outras combinações de valores dos parâmetros envolvidos como taxa de aprendizado ou diferentes números de neurônios, por exemplos, podem ser testados a fim de que melhores resultados possam ser encontrados. Outro teste de melhoria poderia envolver o desligamento de algumas camadas convolucionais responsáveis pelas features mais específicas de uma imagem, de forma a customizar ainda mais a rede para o caso de imagens específicas de documentos.  
 
-A quantidade de imagens do banco de dados deve ser aumentada, o que resultará em uma maior generalização do sistema. Procurou-se neste trabalho minimizar este problema com a adoção de Data Augmentation e Tranfer Learning com uma rede pré-treinada com menor profundidade dentre as redes disponibilizadas na plataforma Keras.  
+A quantidade de imagens do banco de dados deve ser aumentada, o que resultará em uma maior generalização do sistema. Procurou-se neste trabalho minimizar este problema com a adoção de *Data Augmentation e Transfer Learning* com uma rede pré-treinada com menor profundidade dentre as redes disponibilizadas na plataforma Keras.  
 
 O sistema se mostro suscetível de ser explorado de uma maneira mais ampla em futuros desenvolvimentos envolvendo uma gama muito maior de tipos de documentos.
 
