@@ -1,4 +1,4 @@
-# Identificação de documentos do tipo certidão de óbito e nascimento através de um classificador baseado em rede neural convolucional.
+# Identificação_de_Documentos_do_Tipo_Certidão_de_Óbito_e_Nascimento_Através_de_um_Classificador_Baseado_em_Rede_Neural_Convolucional.
 
 #### Aluno: Marcio Martins Rocha Ramos
 #### Orientador: Leonardo Forero Mendoza
